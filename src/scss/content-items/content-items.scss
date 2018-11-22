@@ -1,0 +1,56 @@
+.template{
+  display: flex;
+  flex-wrap: wrap;
+  &__el{
+    flex-grow: 1;
+    min-width: 50%;
+    width: 50%;
+    height: 390px;
+    text-align: center;
+    &__img{
+      height: 55px;
+      margin: 160px auto 20px;
+    }
+    &__p{
+      font-size: 16pt;
+      color: white;
+    }
+  }
+  &_item1{
+    background-image: url("../../img/Bottom Images/Layer 82.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  &_item2{
+    background: #03967E;
+  }
+  &_item3{
+    background: #E71E26;
+  }
+  &_item4{
+    background: #84AF30;
+  }
+  &_item1:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../img/Bottom Images/Layer 82.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  &_item2:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) #03967E;
+  }
+  &_item3:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) #E71E26;
+  }
+  &_item4:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) #84AF30;
+  }
+}
+@media (max-width: 900px) {
+  .template{
+    &__el{
+      width: 100%;
+    }
+  }
+}

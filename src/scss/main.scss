@@ -1,0 +1,11 @@
+@import "./header/header";
+@import "./labels/labels";
+@import "./content-items/content-items";
+@import "description/description";
+@import "nav-list/nav-list";
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}
