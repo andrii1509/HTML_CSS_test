@@ -1,0 +1,73 @@
+.clients-logos{
+  padding: 25px 160px 50px;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  &__img{
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  &__img19{
+    height: 82px;
+    margin: 4px 5px;
+
+  }
+  &__img20{
+    height: 59px;
+    margin: 20px 8px;
+  }
+  &__imgTRS{
+    height: 47px;
+    margin: 25px 8px;
+  }
+  &__imgRH{
+    height: 37px;
+    margin: 31px 8px;
+
+  }
+  &__img21{
+    height: 42px;
+    margin: 29px 8px;
+  }
+  &__img22{
+    height: 67px;
+    margin: 16px 9px;
+  }
+  &__img23{
+    height: 46px;
+    margin: 27px 5px;
+  }
+  &__imgMPS{
+    height: 33px;
+    margin: 33px 5px;
+  }
+  &__imgALP{
+    height: 39px;
+    margin: 30px 5px;
+  }
+  &__img24{
+    height: 44px;
+    margin: 28px 5px;
+  }
+  &__img25{
+    height: 44px;
+    margin: 28px 5px;
+  }
+  &__imgLG{
+    height: 39px;
+    margin: 30px 5px;
+  }
+  &__img26{
+    height: 49px;
+    margin: 25px 5px;
+  }
+
+
+}
+@media (max-width: 900px) {
+  .labels{
+    padding: 25px 10px 50px;
+  }
+}

@@ -1,0 +1,79 @@
+.service-cases{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  &__el{
+    flex-grow: 1;
+    min-width: 50%;
+    width: 50%;
+    height: 391px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    &--img{
+      height: 55px;
+      margin: 14px auto;
+    }
+    &--p{
+      font-size: 16pt;
+      color: white;
+      margin: 14px auto;
+      vertical-align: middle;
+    }
+    &--img1{
+      height: 39px;
+      margin: 14px auto;
+    }
+    &--img2{
+       height: 51px;
+       margin: 12px auto;
+    }
+    &--img3{
+      height: 46px;
+      margin: 12px auto;
+    }
+    &--img4{
+      height: 49px;
+      margin: 9px auto;
+    }
+
+  }
+  &_item1{
+    background-image: url("../../img/Bottom Images/Layer 82.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    &:hover{
+      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../img/Bottom Images/Layer 82.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+  }
+  &_item2{
+    background: #03967E;
+    &:hover{
+      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) #03967E;
+    }
+  }
+  &_item3{
+    background: #E71E26;
+    &:hover{
+      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) #E71E26;
+    }
+  }
+  &_item4{
+    background: #84AF30;
+    &:hover{
+      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) #84AF30;
+    }
+  }
+}
+@media (max-width: 900px) {
+  .service-cases{
+    &__el{
+      width: 100%;
+    }
+  }
+}

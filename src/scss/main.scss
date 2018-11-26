@@ -1,11 +1,12 @@
-@import "./header/header";
-@import "./labels/labels";
-@import "./content-items/content-items";
-@import "description/description";
-@import "nav-list/nav-list";
+@import "scss-modules/header";
+@import "scss-modules/clients-logos";
+@import "scss-modules/service-cases";
+@import "scss-modules/service-description";
+@import "scss-modules/service-list";
 
 *{
   margin: 0;
   padding: 0;
-  font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+  Helvetica, Arial, "Lucida Grande", sans-serif;
 }
